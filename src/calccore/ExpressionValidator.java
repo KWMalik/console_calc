@@ -11,11 +11,11 @@ import java.util.regex.*;
  * @author alexandr afanasev
  * 
  */
-public class ExpressionParser {
+public class ExpressionValidator {
 	private Pattern p;
 	private Matcher m;
 
-	public ExpressionParser(String expPattern) {
+	public ExpressionValidator(String expPattern) {
 		Pattern p = Pattern.compile(expPattern);
 	}
 
