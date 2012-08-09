@@ -6,8 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-/*
+/**
  * Class for working with *.txt files. Reading and writing
+ * 
+ *  @author alexandr afanasev
  */
 
 public class TxtFileWorker {
@@ -20,7 +22,7 @@ public class TxtFileWorker {
 	}
 	
 	
-/*
+/**
  * Reading text file with readPath path.
  * @return <i>List</i> with Strings from file been read.
  */
@@ -39,7 +41,7 @@ public class TxtFileWorker {
 		return result;
 	}
 	
-	/*
+	/**
 	 * Writing String into file with writePath path.
 	 * @param <i>List</i>to write.
 	 */	
